@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<style>
+	[type="password"]{border:2px solid red;
+	}
+
+[value="sign up"]{color:white;border:2px solid pink;
+background-color:purple;
+}
+/* id selector*/
+#servicewrapper{display:flex;
+flex-direction:row;
+}
+#service1{border:1px solid black;
+width:60%;
+height:200px;
+background-color:green;
+
+}
+#service2{border:1px solid black;
+width:20%;
+height:200px;
+background-color:blue;
+
+}
+#service3{border:1px solid black;
+width:20%;
+height:200px;
+background-color:yellow;
+
+}
+/* class selector*/
+.aboutcontainer{display:flex;
+justify-content:space-around;
+margin-top:20px
+}
+.box{width:28%;
+height:200px;
+border:1px solid black
+
+}
+.headings{ background-color:brown
+
+
+ }
+
+</style>
+
+</head>
+
+<body>
+<form>
+	<input type="text" size="40" name="user"><br><br>
+	<input type="password"size="40" name="pwd">
+	<input type="button"value="sign up"> 
+</form>
+<br><br>
+<div id="servicewrapper">
+<div id="service1"></div>
+<div id="service2"></div>
+<div id="service3"></div>
+
+
+</div>
+<div class="aboutcontainer">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+</div>
+<h1 class="headings">Welcome To Moat Acedemy</h1>
+<h2 class="headings highlght box"> softwre developers</h2>
+<h3 class="headings">we are good to go</h3>
+
+</body>
+</html>
